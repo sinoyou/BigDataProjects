@@ -15,4 +15,4 @@ for line in sys.stdin:
 
     for word in words: 
         # (document_id, text)
-        print '%s\t%s' % (document_id,word)
+        print '%s\t%s' % (word,document_id)
