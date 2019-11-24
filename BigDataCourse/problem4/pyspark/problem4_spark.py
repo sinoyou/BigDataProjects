@@ -16,14 +16,14 @@ def get_key(json):
 read = textfile.map(lambda row: json.loads(row.strip()))
 
 # mapper - ((namex, namey), 1)
-map_ = read.map(lambda x: (json.dumps(get_key(x)), 1))
+map_ = read.map(lambda x: (get_key(x), 1))
 
 # reducer - ((namex, namey), cnt == 1)
 reduce_ = map_.reduceByKey(lambda a,b: a+b).filter(lambda x: x[1] == 1)
 
 # Export as Json Format - (namex, namey) & (namey, namex)
-write = reduce_.map(lambda x: json.loads(x[0]))
-write = write.flatMap(lambda x: [json.dumps((x[0],x[1])), json.dumps((x[1],x[0]))])
+write = reduce_.map(lambda x: x[0])
+write = write.flatMap(lambda x: [json.dumps((x[0],x[1])), json.dumps((x[1],x[0]))]).sortBy(lambda x:x)
 
 # Print
 write.foreach(print)
