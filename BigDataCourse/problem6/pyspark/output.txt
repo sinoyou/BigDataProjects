@@ -1,0 +1,185 @@
+19/11/24 12:31:27 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/11/24 12:31:28 INFO spark.SparkContext: Running Spark version 2.4.3
+19/11/24 12:31:28 INFO spark.SparkContext: Submitted application: test
+19/11/24 12:31:29 INFO spark.SecurityManager: Changing view acls to: root
+19/11/24 12:31:29 INFO spark.SecurityManager: Changing modify acls to: root
+19/11/24 12:31:29 INFO spark.SecurityManager: Changing view acls groups to: 
+19/11/24 12:31:29 INFO spark.SecurityManager: Changing modify acls groups to: 
+19/11/24 12:31:29 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+19/11/24 12:31:29 INFO util.Utils: Successfully started service 'sparkDriver' on port 42417.
+19/11/24 12:31:29 INFO spark.SparkEnv: Registering MapOutputTracker
+19/11/24 12:31:29 INFO spark.SparkEnv: Registering BlockManagerMaster
+19/11/24 12:31:29 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+19/11/24 12:31:29 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+19/11/24 12:31:29 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-b4d18a8e-d13e-4696-b502-b2dcb9b1b669
+19/11/24 12:31:29 INFO memory.MemoryStore: MemoryStore started with capacity 366.3 MB
+19/11/24 12:31:29 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+19/11/24 12:31:29 INFO util.log: Logging initialized @4037ms
+19/11/24 12:31:29 INFO server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+19/11/24 12:31:29 INFO server.Server: Started @4139ms
+19/11/24 12:31:29 INFO server.AbstractConnector: Started ServerConnector@55263d08{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+19/11/24 12:31:29 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@15a2a5f7{/jobs,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5bbba3e{/jobs/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@417951b1{/jobs/job,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7cf024d5{/jobs/job/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@770f0623{/stages,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7f0d615b{/stages/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4b7ae5cb{/stages/stage,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2df329c4{/stages/stage/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@313bc50c{/stages/pool,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@ae66b88{/stages/pool/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@373bca0e{/storage,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3327824{/storage/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6c4edeeb{/storage/rdd,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@554d52c1{/storage/rdd/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3ccf89dc{/environment,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2c2c3539{/environment/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@360f1fd1{/executors,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@9eb988b{/executors/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@49aa7103{/executors/threadDump,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4e210f2{/executors/threadDump/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4a5d7628{/static,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@8ca602b{/,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@19fb1d7b{/api,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@41981e5e{/jobs/job/kill,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@34ad57f0{/stages/stage/kill,null,AVAILABLE,@Spark}
+19/11/24 12:31:29 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://f86b0fa73cb7:4040
+19/11/24 12:31:30 INFO executor.Executor: Starting executor ID driver on host localhost
+19/11/24 12:31:30 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43545.
+19/11/24 12:31:30 INFO netty.NettyBlockTransferService: Server created on f86b0fa73cb7:43545
+19/11/24 12:31:30 INFO storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+19/11/24 12:31:30 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, f86b0fa73cb7, 43545, None)
+19/11/24 12:31:30 INFO storage.BlockManagerMasterEndpoint: Registering block manager f86b0fa73cb7:43545 with 366.3 MB RAM, BlockManagerId(driver, f86b0fa73cb7, 43545, None)
+19/11/24 12:31:30 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, f86b0fa73cb7, 43545, None)
+19/11/24 12:31:30 INFO storage.BlockManager: Initialized BlockManager: BlockManagerId(driver, f86b0fa73cb7, 43545, None)
+19/11/24 12:31:30 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6c5abbcf{/metrics/json,null,AVAILABLE,@Spark}
+19/11/24 12:31:31 INFO memory.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 397.7 KB, free 365.9 MB)
+19/11/24 12:31:31 INFO memory.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 36.1 KB, free 365.9 MB)
+19/11/24 12:31:31 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on f86b0fa73cb7:43545 (size: 36.1 KB, free: 366.3 MB)
+19/11/24 12:31:31 INFO spark.SparkContext: Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+19/11/24 12:31:32 INFO mapred.FileInputFormat: Total input files to process : 1
+19/11/24 12:31:32 INFO spark.SparkContext: Starting job: foreach at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:32
+19/11/24 12:31:32 INFO scheduler.DAGScheduler: Registering RDD 6 (groupByKey at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:20)
+19/11/24 12:31:32 INFO scheduler.DAGScheduler: Registering RDD 10 (reduceByKey at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:26)
+19/11/24 12:31:32 INFO scheduler.DAGScheduler: Got job 0 (foreach at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:32) with 2 output partitions
+19/11/24 12:31:32 INFO scheduler.DAGScheduler: Final stage: ResultStage 2 (foreach at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:32)
+19/11/24 12:31:32 INFO scheduler.DAGScheduler: Parents of final stage: List(ShuffleMapStage 1)
+19/11/24 12:31:32 INFO scheduler.DAGScheduler: Missing parents: List(ShuffleMapStage 1)
+19/11/24 12:31:32 INFO scheduler.DAGScheduler: Submitting ShuffleMapStage 0 (PairwiseRDD[6] at groupByKey at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:20), which has no missing parents
+19/11/24 12:31:33 INFO memory.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 15.2 KB, free 365.9 MB)
+19/11/24 12:31:33 INFO memory.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 7.6 KB, free 365.9 MB)
+19/11/24 12:31:33 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on f86b0fa73cb7:43545 (size: 7.6 KB, free: 366.3 MB)
+19/11/24 12:31:33 INFO spark.SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1161
+19/11/24 12:31:33 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 0 (PairwiseRDD[6] at groupByKey at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:20) (first 15 tasks are for partitions Vector(0, 1))
+19/11/24 12:31:33 INFO scheduler.TaskSchedulerImpl: Adding task set 0.0 with 2 tasks
+19/11/24 12:31:33 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7487 bytes)
+19/11/24 12:31:33 INFO executor.Executor: Running task 0.0 in stage 0.0 (TID 0)
+19/11/24 12:31:33 INFO rdd.HadoopRDD: Input split: file:/home/root/BigDataCourse/problem6/matrix.json:0+685
+19/11/24 12:31:34 INFO python.PythonRunner: Times: total = 454, boot = 391, init = 62, finish = 1
+19/11/24 12:31:34 INFO python.PythonRunner: Times: total = 80, boot = 15, init = 56, finish = 9
+19/11/24 12:31:34 INFO executor.Executor: Finished task 0.0 in stage 0.0 (TID 0). 1676 bytes result sent to driver
+19/11/24 12:31:34 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 7487 bytes)
+19/11/24 12:31:34 INFO executor.Executor: Running task 1.0 in stage 0.0 (TID 1)
+19/11/24 12:31:34 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1534 ms on localhost (executor driver) (1/2)
+19/11/24 12:31:34 INFO rdd.HadoopRDD: Input split: file:/home/root/BigDataCourse/problem6/matrix.json:0+685
+19/11/24 12:31:34 INFO python.PythonAccumulatorV2: Connected to AccumulatorServer at host: 127.0.0.1 port: 41919
+19/11/24 12:31:34 INFO python.PythonRunner: Times: total = 58, boot = -533, init = 590, finish = 1
+19/11/24 12:31:34 INFO python.PythonRunner: Times: total = 51, boot = -517, init = 566, finish = 2
+19/11/24 12:31:34 INFO executor.Executor: Finished task 1.0 in stage 0.0 (TID 1). 1590 bytes result sent to driver
+19/11/24 12:31:34 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 134 ms on localhost (executor driver) (2/2)
+19/11/24 12:31:34 INFO scheduler.DAGScheduler: ShuffleMapStage 0 (groupByKey at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:20) finished in 1.788 s
+19/11/24 12:31:34 INFO scheduler.DAGScheduler: looking for newly runnable stages
+19/11/24 12:31:34 INFO scheduler.DAGScheduler: running: Set()
+19/11/24 12:31:34 INFO scheduler.DAGScheduler: waiting: Set(ShuffleMapStage 1, ResultStage 2)
+19/11/24 12:31:34 INFO scheduler.DAGScheduler: failed: Set()
+19/11/24 12:31:34 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+19/11/24 12:31:34 INFO scheduler.DAGScheduler: Submitting ShuffleMapStage 1 (PairwiseRDD[10] at reduceByKey at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:26), which has no missing parents
+19/11/24 12:31:34 INFO memory.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 12.5 KB, free 365.8 MB)
+19/11/24 12:31:34 INFO memory.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 7.6 KB, free 365.8 MB)
+19/11/24 12:31:34 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on f86b0fa73cb7:43545 (size: 7.6 KB, free: 366.2 MB)
+19/11/24 12:31:34 INFO spark.SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1161
+19/11/24 12:31:34 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 1 (PairwiseRDD[10] at reduceByKey at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:26) (first 15 tasks are for partitions Vector(0, 1))
+19/11/24 12:31:34 INFO scheduler.TaskSchedulerImpl: Adding task set 1.0 with 2 tasks
+19/11/24 12:31:34 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, ANY, 7130 bytes)
+19/11/24 12:31:34 INFO executor.Executor: Running task 0.0 in stage 1.0 (TID 2)
+19/11/24 12:31:34 INFO storage.ShuffleBlockFetcherIterator: Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+19/11/24 12:31:34 INFO storage.ShuffleBlockFetcherIterator: Started 0 remote fetches in 11 ms
+19/11/24 12:31:34 INFO python.PythonRunner: Times: total = 53, boot = -189, init = 236, finish = 6
+19/11/24 12:31:34 INFO executor.Executor: Finished task 0.0 in stage 1.0 (TID 2). 1805 bytes result sent to driver
+19/11/24 12:31:34 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 1.0 (TID 3, localhost, executor driver, partition 1, ANY, 7130 bytes)
+19/11/24 12:31:34 INFO executor.Executor: Running task 1.0 in stage 1.0 (TID 3)
+19/11/24 12:31:34 INFO storage.ShuffleBlockFetcherIterator: Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+19/11/24 12:31:34 INFO storage.ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+19/11/24 12:31:34 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 1.0 (TID 2) in 167 ms on localhost (executor driver) (1/2)
+19/11/24 12:31:35 INFO python.PythonRunner: Times: total = 45, boot = -277, init = 321, finish = 1
+19/11/24 12:31:35 INFO executor.Executor: Finished task 1.0 in stage 1.0 (TID 3). 1805 bytes result sent to driver
+19/11/24 12:31:35 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 1.0 (TID 3) in 72 ms on localhost (executor driver) (2/2)
+19/11/24 12:31:35 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+19/11/24 12:31:35 INFO scheduler.DAGScheduler: ShuffleMapStage 1 (reduceByKey at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:26) finished in 0.274 s
+19/11/24 12:31:35 INFO scheduler.DAGScheduler: looking for newly runnable stages
+19/11/24 12:31:35 INFO scheduler.DAGScheduler: running: Set()
+19/11/24 12:31:35 INFO scheduler.DAGScheduler: waiting: Set(ResultStage 2)
+19/11/24 12:31:35 INFO scheduler.DAGScheduler: failed: Set()
+19/11/24 12:31:35 INFO scheduler.DAGScheduler: Submitting ResultStage 2 (PythonRDD[13] at foreach at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:32), which has no missing parents
+19/11/24 12:31:35 INFO memory.MemoryStore: Block broadcast_3 stored as values in memory (estimated size 10.8 KB, free 365.8 MB)
+19/11/24 12:31:35 INFO memory.MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 6.5 KB, free 365.8 MB)
+19/11/24 12:31:35 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on f86b0fa73cb7:43545 (size: 6.5 KB, free: 366.2 MB)
+19/11/24 12:31:35 INFO spark.SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1161
+19/11/24 12:31:35 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ResultStage 2 (PythonRDD[13] at foreach at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:32) (first 15 tasks are for partitions Vector(0, 1))
+19/11/24 12:31:35 INFO scheduler.TaskSchedulerImpl: Adding task set 2.0 with 2 tasks
+19/11/24 12:31:35 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 2.0 (TID 4, localhost, executor driver, partition 0, ANY, 7141 bytes)
+19/11/24 12:31:35 INFO executor.Executor: Running task 0.0 in stage 2.0 (TID 4)
+19/11/24 12:31:35 INFO storage.ShuffleBlockFetcherIterator: Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+19/11/24 12:31:35 INFO storage.ShuffleBlockFetcherIterator: Started 0 remote fetches in 4 ms
+[2, 4, 8873]
+[0, 0, 11878]
+[3, 1, 12037]
+[3, 3, 2934]
+[4, 4, 9981]
+[2, 2, 10636]
+[0, 2, 16031]
+[2, 0, 6844]
+[1, 3, 7479]
+[0, 4, 15874]
+[4, 2, 10954]
+[1, 1, 6914]
+[4, 0, 11182]
+19/11/24 12:31:35 INFO python.PythonRunner: Times: total = 61, boot = -147, init = 208, finish = 0
+19/11/24 12:31:35 INFO executor.Executor: Finished task 0.0 in stage 2.0 (TID 4). 1633 bytes result sent to driver
+19/11/24 12:31:35 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 2.0 (TID 5, localhost, executor driver, partition 1, ANY, 7141 bytes)
+19/11/24 12:31:35 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 2.0 (TID 4) in 101 ms on localhost (executor driver) (1/2)
+19/11/24 12:31:35 INFO executor.Executor: Running task 1.0 in stage 2.0 (TID 5)
+19/11/24 12:31:35 INFO storage.ShuffleBlockFetcherIterator: Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+19/11/24 12:31:35 INFO storage.ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+[1, 2, 8282]
+[0, 1, 14044]
+[3, 2, 10587]
+[3, 0, 10512]
+[3, 4, 5274]
+[2, 1, 9880]
+[2, 3, 6973]
+[1, 4, 9647]
+[4, 3, 1660]
+[0, 3, 5964]
+[4, 1, 14591]
+[1, 0, 4081]
+19/11/24 12:31:35 INFO python.PythonRunner: Times: total = 54, boot = -153, init = 206, finish = 1
+19/11/24 12:31:35 INFO executor.Executor: Finished task 1.0 in stage 2.0 (TID 5). 1633 bytes result sent to driver
+19/11/24 12:31:35 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 2.0 (TID 5) in 78 ms on localhost (executor driver) (2/2)
+19/11/24 12:31:35 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+19/11/24 12:31:35 INFO scheduler.DAGScheduler: ResultStage 2 (foreach at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:32) finished in 0.192 s
+19/11/24 12:31:35 INFO scheduler.DAGScheduler: Job 0 finished: foreach at /home/root/BigDataCourse/problem6/pyspark/problem6_spark.py:32, took 2.451096 s
+19/11/24 12:31:35 INFO spark.SparkContext: Invoking stop() from shutdown hook
+19/11/24 12:31:35 INFO server.AbstractConnector: Stopped Spark@55263d08{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+19/11/24 12:31:35 INFO ui.SparkUI: Stopped Spark web UI at http://f86b0fa73cb7:4040
+19/11/24 12:31:35 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+19/11/24 12:31:35 INFO memory.MemoryStore: MemoryStore cleared
+19/11/24 12:31:35 INFO storage.BlockManager: BlockManager stopped
+19/11/24 12:31:35 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+19/11/24 12:31:35 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+19/11/24 12:31:35 INFO spark.SparkContext: Successfully stopped SparkContext
+19/11/24 12:31:35 INFO util.ShutdownHookManager: Shutdown hook called
+19/11/24 12:31:35 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-7d34081d-bd10-4758-b8cf-4213baa5cf65
+19/11/24 12:31:35 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-5ade8c3d-839e-4543-a918-3cf18a8426ff/pyspark-2b7933b2-1215-4d7a-942b-89bea879f8b4
+19/11/24 12:31:35 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-5ade8c3d-839e-4543-a918-3cf18a8426ff

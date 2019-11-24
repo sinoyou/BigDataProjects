@@ -9,7 +9,7 @@ MAXN = 10
 
 # Import as Json Format
 read = textfile.map(lambda row: json.loads(row.strip()))
-# Map 
+# Map - key = (result_row, result_column, index_of_sum)
 map_a = read.filter(lambda x: x[0] == 'a').\
     flatMap(lambda x: [((x[1], i, x[2]), x[3]) for i in range(MAXN+1)])
 map_b = read.filter(lambda x: x[0] == 'b').\

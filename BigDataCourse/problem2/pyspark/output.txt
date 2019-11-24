@@ -1,0 +1,163 @@
+19/11/24 11:36:31 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/11/24 11:36:32 INFO spark.SparkContext: Running Spark version 2.4.3
+19/11/24 11:36:32 INFO spark.SparkContext: Submitted application: test
+19/11/24 11:36:32 INFO spark.SecurityManager: Changing view acls to: root
+19/11/24 11:36:32 INFO spark.SecurityManager: Changing modify acls to: root
+19/11/24 11:36:32 INFO spark.SecurityManager: Changing view acls groups to: 
+19/11/24 11:36:32 INFO spark.SecurityManager: Changing modify acls groups to: 
+19/11/24 11:36:32 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+19/11/24 11:36:33 INFO util.Utils: Successfully started service 'sparkDriver' on port 38177.
+19/11/24 11:36:33 INFO spark.SparkEnv: Registering MapOutputTracker
+19/11/24 11:36:33 INFO spark.SparkEnv: Registering BlockManagerMaster
+19/11/24 11:36:33 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+19/11/24 11:36:33 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+19/11/24 11:36:33 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-a099ef27-f32f-4766-ab6b-c4ada53f5d6d
+19/11/24 11:36:33 INFO memory.MemoryStore: MemoryStore started with capacity 366.3 MB
+19/11/24 11:36:33 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+19/11/24 11:36:33 INFO util.log: Logging initialized @4020ms
+19/11/24 11:36:33 INFO server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+19/11/24 11:36:33 INFO server.Server: Started @4121ms
+19/11/24 11:36:33 INFO server.AbstractConnector: Started ServerConnector@6e094a5c{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+19/11/24 11:36:33 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@595039a4{/jobs,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@8412288{/jobs/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@13068adb{/jobs/job,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@227ce7a5{/jobs/job/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@58bf163{/stages,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@26d4f41d{/stages/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@43386d79{/stages/stage,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5d9371b4{/stages/stage/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5dc08cda{/stages/pool,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3c463b4d{/stages/pool/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@50dd8136{/storage,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@16055448{/storage/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4ffaac0e{/storage/rdd,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@426b6aef{/storage/rdd/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7e8387a5{/environment,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@42183b29{/environment/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@581875b8{/executors,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@413d4046{/executors/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@23e1496b{/executors/threadDump,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@20a3ef4d{/executors/threadDump/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3b0deb54{/static,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@680788d6{/,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2aff43f4{/api,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5bb39d1b{/jobs/job/kill,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3792f9fe{/stages/stage/kill,null,AVAILABLE,@Spark}
+19/11/24 11:36:33 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://f86b0fa73cb7:4040
+19/11/24 11:36:33 INFO executor.Executor: Starting executor ID driver on host localhost
+19/11/24 11:36:34 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44941.
+19/11/24 11:36:34 INFO netty.NettyBlockTransferService: Server created on f86b0fa73cb7:44941
+19/11/24 11:36:34 INFO storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+19/11/24 11:36:34 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, f86b0fa73cb7, 44941, None)
+19/11/24 11:36:34 INFO storage.BlockManagerMasterEndpoint: Registering block manager f86b0fa73cb7:44941 with 366.3 MB RAM, BlockManagerId(driver, f86b0fa73cb7, 44941, None)
+19/11/24 11:36:34 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, f86b0fa73cb7, 44941, None)
+19/11/24 11:36:34 INFO storage.BlockManager: Initialized BlockManager: BlockManagerId(driver, f86b0fa73cb7, 44941, None)
+19/11/24 11:36:34 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5f720f88{/metrics/json,null,AVAILABLE,@Spark}
+19/11/24 11:36:35 INFO memory.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 397.7 KB, free 365.9 MB)
+19/11/24 11:36:35 INFO memory.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 36.1 KB, free 365.9 MB)
+19/11/24 11:36:35 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on f86b0fa73cb7:44941 (size: 36.1 KB, free: 366.3 MB)
+19/11/24 11:36:35 INFO spark.SparkContext: Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+19/11/24 11:36:36 INFO mapred.FileInputFormat: Total input files to process : 1
+19/11/24 11:36:36 INFO spark.SparkContext: Starting job: foreach at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:19
+19/11/24 11:36:36 INFO scheduler.DAGScheduler: Registering RDD 6 (join at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:15)
+19/11/24 11:36:36 INFO scheduler.DAGScheduler: Got job 0 (foreach at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:19) with 2 output partitions
+19/11/24 11:36:36 INFO scheduler.DAGScheduler: Final stage: ResultStage 1 (foreach at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:19)
+19/11/24 11:36:36 INFO scheduler.DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+19/11/24 11:36:36 INFO scheduler.DAGScheduler: Missing parents: List(ShuffleMapStage 0)
+19/11/24 11:36:36 INFO scheduler.DAGScheduler: Submitting ShuffleMapStage 0 (PairwiseRDD[6] at join at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:15), which has no missing parents
+19/11/24 11:36:37 INFO memory.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 15.6 KB, free 365.9 MB)
+19/11/24 11:36:37 INFO memory.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 7.7 KB, free 365.9 MB)
+19/11/24 11:36:37 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on f86b0fa73cb7:44941 (size: 7.7 KB, free: 366.3 MB)
+19/11/24 11:36:37 INFO spark.SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1161
+19/11/24 11:36:37 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 0 (PairwiseRDD[6] at join at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:15) (first 15 tasks are for partitions Vector(0, 1))
+19/11/24 11:36:37 INFO scheduler.TaskSchedulerImpl: Adding task set 0.0 with 2 tasks
+19/11/24 11:36:37 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7488 bytes)
+19/11/24 11:36:37 INFO executor.Executor: Running task 0.0 in stage 0.0 (TID 0)
+19/11/24 11:36:37 INFO rdd.HadoopRDD: Input split: file:/home/root/BigDataCourse/problem2/records.json:0+6825
+19/11/24 11:36:38 INFO python.PythonRunner: Times: total = 857, boot = 788, init = 68, finish = 1
+19/11/24 11:36:39 INFO python.PythonRunner: Times: total = 69, boot = 7, init = 55, finish = 7
+19/11/24 11:36:39 INFO executor.Executor: Finished task 0.0 in stage 0.0 (TID 0). 1676 bytes result sent to driver
+19/11/24 11:36:39 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 7488 bytes)
+19/11/24 11:36:39 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1979 ms on localhost (executor driver) (1/2)
+19/11/24 11:36:39 INFO executor.Executor: Running task 1.0 in stage 0.0 (TID 1)
+19/11/24 11:36:39 INFO rdd.HadoopRDD: Input split: file:/home/root/BigDataCourse/problem2/records.json:0+6825
+19/11/24 11:36:39 INFO python.PythonAccumulatorV2: Connected to AccumulatorServer at host: 127.0.0.1 port: 34541
+19/11/24 11:36:39 INFO python.PythonRunner: Times: total = 60, boot = -413, init = 472, finish = 1
+19/11/24 11:36:39 INFO python.PythonRunner: Times: total = 67, boot = -415, init = 481, finish = 1
+19/11/24 11:36:39 INFO executor.Executor: Finished task 1.0 in stage 0.0 (TID 1). 1590 bytes result sent to driver
+19/11/24 11:36:39 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 172 ms on localhost (executor driver) (2/2)
+19/11/24 11:36:39 INFO scheduler.DAGScheduler: ShuffleMapStage 0 (join at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:15) finished in 2.305 s
+19/11/24 11:36:39 INFO scheduler.DAGScheduler: looking for newly runnable stages
+19/11/24 11:36:39 INFO scheduler.DAGScheduler: running: Set()
+19/11/24 11:36:39 INFO scheduler.DAGScheduler: waiting: Set(ResultStage 1)
+19/11/24 11:36:39 INFO scheduler.DAGScheduler: failed: Set()
+19/11/24 11:36:39 INFO scheduler.DAGScheduler: Submitting ResultStage 1 (PythonRDD[9] at foreach at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:19), which has no missing parents
+19/11/24 11:36:39 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+19/11/24 11:36:39 INFO memory.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 12.8 KB, free 365.8 MB)
+19/11/24 11:36:39 INFO memory.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 7.6 KB, free 365.8 MB)
+19/11/24 11:36:39 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on f86b0fa73cb7:44941 (size: 7.6 KB, free: 366.2 MB)
+19/11/24 11:36:39 INFO spark.SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1161
+19/11/24 11:36:39 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ResultStage 1 (PythonRDD[9] at foreach at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:19) (first 15 tasks are for partitions Vector(0, 1))
+19/11/24 11:36:39 INFO scheduler.TaskSchedulerImpl: Adding task set 1.0 with 2 tasks
+19/11/24 11:36:39 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, ANY, 7141 bytes)
+19/11/24 11:36:39 INFO executor.Executor: Running task 0.0 in stage 1.0 (TID 2)
+19/11/24 11:36:39 INFO storage.ShuffleBlockFetcherIterator: Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+19/11/24 11:36:39 INFO storage.ShuffleBlockFetcherIterator: Started 0 remote fetches in 8 ms
+["order", "1", "36901", "O", "173665.47", "1996-01-02", "5-LOW", "Clerk#000000951", "0", "nstructions sleep furiously among ", "line_item", "1", "155190", "7706", "1", "17", "21168.23", "0.04", "0.02", "N", "O", "1996-03-13", "1996-02-12", "1996-03-22", "DELIVER IN PERSON", "TRUCK", "egular courts above the"]
+["order", "1", "36901", "O", "173665.47", "1996-01-02", "5-LOW", "Clerk#000000951", "0", "nstructions sleep furiously among ", "line_item", "1", "67310", "7311", "2", "36", "45983.16", "0.09", "0.06", "N", "O", "1996-04-12", "1996-02-28", "1996-04-20", "TAKE BACK RETURN", "MAIL", "ly final dependencies: slyly bold "]
+["order", "1", "36901", "O", "173665.47", "1996-01-02", "5-LOW", "Clerk#000000951", "0", "nstructions sleep furiously among ", "line_item", "1", "63700", "3701", "3", "8", "13309.60", "0.10", "0.02", "N", "O", "1996-01-29", "1996-03-05", "1996-01-31", "TAKE BACK RETURN", "REG AIR", "riously. regular, express dep"]
+["order", "1", "36901", "O", "173665.47", "1996-01-02", "5-LOW", "Clerk#000000951", "0", "nstructions sleep furiously among ", "line_item", "1", "2132", "4633", "4", "28", "28955.64", "0.09", "0.06", "N", "O", "1996-04-21", "1996-03-30", "1996-05-16", "NONE", "AIR", "lites. fluffily even de"]
+["order", "1", "36901", "O", "173665.47", "1996-01-02", "5-LOW", "Clerk#000000951", "0", "nstructions sleep furiously among ", "line_item", "1", "24027", "1534", "5", "24", "22824.48", "0.10", "0.04", "N", "O", "1996-03-30", "1996-03-14", "1996-04-01", "NONE", "FOB", " pending foxes. slyly re"]
+["order", "1", "36901", "O", "173665.47", "1996-01-02", "5-LOW", "Clerk#000000951", "0", "nstructions sleep furiously among ", "line_item", "1", "15635", "638", "6", "32", "49620.16", "0.07", "0.02", "N", "O", "1996-01-30", "1996-02-07", "1996-02-03", "DELIVER IN PERSON", "MAIL", "arefully slyly ex"]
+["order", "3", "123314", "F", "193846.25", "1993-10-14", "5-LOW", "Clerk#000000955", "0", "sly final accounts boost. carefully regular ideas cajole carefully. depos", "line_item", "3", "4297", "1798", "1", "45", "54058.05", "0.06", "0.00", "R", "F", "1994-02-02", "1994-01-04", "1994-02-23", "NONE", "AIR", "ongside of the furiously brave acco"]
+["order", "3", "123314", "F", "193846.25", "1993-10-14", "5-LOW", "Clerk#000000955", "0", "sly final accounts boost. carefully regular ideas cajole carefully. depos", "line_item", "3", "19036", "6540", "2", "49", "46796.47", "0.10", "0.00", "R", "F", "1993-11-09", "1993-12-20", "1993-11-24", "TAKE BACK RETURN", "RAIL", " unusual accounts. eve"]
+["order", "3", "123314", "F", "193846.25", "1993-10-14", "5-LOW", "Clerk#000000955", "0", "sly final accounts boost. carefully regular ideas cajole carefully. depos", "line_item", "3", "128449", "3474", "3", "27", "39890.88", "0.06", "0.07", "A", "F", "1994-01-16", "1993-11-22", "1994-01-23", "DELIVER IN PERSON", "SHIP", "nal foxes wake. "]
+["order", "3", "123314", "F", "193846.25", "1993-10-14", "5-LOW", "Clerk#000000955", "0", "sly final accounts boost. carefully regular ideas cajole carefully. depos", "line_item", "3", "29380", "1883", "4", "2", "2618.76", "0.01", "0.06", "A", "F", "1993-12-04", "1994-01-07", "1994-01-01", "NONE", "TRUCK", "y. fluffily pending d"]
+["order", "3", "123314", "F", "193846.25", "1993-10-14", "5-LOW", "Clerk#000000955", "0", "sly final accounts boost. carefully regular ideas cajole carefully. depos", "line_item", "3", "183095", "650", "5", "28", "32986.52", "0.04", "0.00", "R", "F", "1993-12-14", "1994-01-10", "1994-01-01", "TAKE BACK RETURN", "FOB", "ages nag slyly pending"]
+["order", "3", "123314", "F", "193846.25", "1993-10-14", "5-LOW", "Clerk#000000955", "0", "sly final accounts boost. carefully regular ideas cajole carefully. depos", "line_item", "3", "62143", "9662", "6", "26", "28733.64", "0.10", "0.02", "A", "F", "1993-10-29", "1993-12-18", "1993-11-04", "TAKE BACK RETURN", "RAIL", "ges sleep after the caref"]
+["order", "5", "44485", "F", "144659.20", "1994-07-30", "5-LOW", "Clerk#000000925", "0", "quickly. bold deposits sleep slyly. packages use slyly", "line_item", "5", "108570", "8571", "1", "15", "23678.55", "0.02", "0.04", "R", "F", "1994-10-31", "1994-08-31", "1994-11-20", "NONE", "AIR", "ts wake furiously "]
+["order", "5", "44485", "F", "144659.20", "1994-07-30", "5-LOW", "Clerk#000000925", "0", "quickly. bold deposits sleep slyly. packages use slyly", "line_item", "5", "123927", "3928", "2", "26", "50723.92", "0.07", "0.08", "R", "F", "1994-10-16", "1994-09-25", "1994-10-19", "NONE", "FOB", "sts use slyly quickly special instruc"]
+["order", "5", "44485", "F", "144659.20", "1994-07-30", "5-LOW", "Clerk#000000925", "0", "quickly. bold deposits sleep slyly. packages use slyly", "line_item", "5", "37531", "35", "3", "50", "73426.50", "0.08", "0.03", "A", "F", "1994-08-08", "1994-10-13", "1994-08-26", "DELIVER IN PERSON", "AIR", "eodolites. fluffily unusual"]
+["order", "7", "39136", "O", "252004.18", "1996-01-10", "2-HIGH", "Clerk#000000470", "0", "ly special requests ", "line_item", "7", "182052", "9607", "1", "12", "13608.60", "0.07", "0.03", "N", "O", "1996-05-07", "1996-03-13", "1996-06-03", "TAKE BACK RETURN", "FOB", "ss pinto beans wake against th"]
+["order", "7", "39136", "O", "252004.18", "1996-01-10", "2-HIGH", "Clerk#000000470", "0", "ly special requests ", "line_item", "7", "145243", "7758", "2", "9", "11594.16", "0.08", "0.08", "N", "O", "1996-02-01", "1996-03-02", "1996-02-19", "TAKE BACK RETURN", "SHIP", "es. instructions"]
+["order", "7", "39136", "O", "252004.18", "1996-01-10", "2-HIGH", "Clerk#000000470", "0", "ly special requests ", "line_item", "7", "94780", "9799", "3", "46", "81639.88", "0.10", "0.07", "N", "O", "1996-01-15", "1996-03-27", "1996-02-03", "COLLECT COD", "MAIL", " unusual reques"]
+["order", "7", "39136", "O", "252004.18", "1996-01-10", "2-HIGH", "Clerk#000000470", "0", "ly special requests ", "line_item", "7", "163073", "3074", "4", "28", "31809.96", "0.03", "0.04", "N", "O", "1996-03-21", "1996-04-08", "1996-04-20", "NONE", "FOB", ". slyly special requests haggl"]
+["order", "7", "39136", "O", "252004.18", "1996-01-10", "2-HIGH", "Clerk#000000470", "0", "ly special requests ", "line_item", "7", "151894", "9440", "5", "38", "73943.82", "0.08", "0.01", "N", "O", "1996-02-11", "1996-02-24", "1996-02-18", "DELIVER IN PERSON", "TRUCK", "ns haggle carefully ironic deposits. bl"]
+["order", "7", "39136", "O", "252004.18", "1996-01-10", "2-HIGH", "Clerk#000000470", "0", "ly special requests ", "line_item", "7", "79251", "1759", "6", "35", "43058.75", "0.06", "0.03", "N", "O", "1996-01-16", "1996-02-23", "1996-01-22", "TAKE BACK RETURN", "FOB", "jole. excuses wake carefully alongside of "]
+["order", "7", "39136", "O", "252004.18", "1996-01-10", "2-HIGH", "Clerk#000000470", "0", "ly special requests ", "line_item", "7", "157238", "2269", "7", "5", "6476.15", "0.04", "0.02", "N", "O", "1996-02-10", "1996-03-26", "1996-02-13", "NONE", "FOB", "ithely regula"]
+19/11/24 11:36:39 INFO python.PythonRunner: Times: total = 47, boot = -181, init = 224, finish = 4
+19/11/24 11:36:39 INFO executor.Executor: Finished task 0.0 in stage 1.0 (TID 2). 1633 bytes result sent to driver
+19/11/24 11:36:39 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 1.0 (TID 3, localhost, executor driver, partition 1, ANY, 7141 bytes)
+19/11/24 11:36:39 INFO executor.Executor: Running task 1.0 in stage 1.0 (TID 3)
+19/11/24 11:36:39 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 1.0 (TID 2) in 109 ms on localhost (executor driver) (1/2)
+19/11/24 11:36:39 INFO storage.ShuffleBlockFetcherIterator: Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+19/11/24 11:36:39 INFO storage.ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+["order", "32", "130057", "O", "208660.75", "1995-07-16", "2-HIGH", "Clerk#000000616", "0", "ise blithely bold, regular requests. quickly unusual dep", "line_item", "32", "82704", "7721", "1", "28", "47227.60", "0.05", "0.08", "N", "O", "1995-10-23", "1995-08-27", "1995-10-26", "TAKE BACK RETURN", "TRUCK", "sleep quickly. req"]
+["order", "32", "130057", "O", "208660.75", "1995-07-16", "2-HIGH", "Clerk#000000616", "0", "ise blithely bold, regular requests. quickly unusual dep", "line_item", "32", "197921", "441", "2", "32", "64605.44", "0.02", "0.00", "N", "O", "1995-08-14", "1995-10-07", "1995-08-27", "COLLECT COD", "AIR", "lithely regular deposits. fluffily "]
+["order", "32", "130057", "O", "208660.75", "1995-07-16", "2-HIGH", "Clerk#000000616", "0", "ise blithely bold, regular requests. quickly unusual dep", "line_item", "32", "44161", "6666", "3", "2", "2210.32", "0.09", "0.02", "N", "O", "1995-08-07", "1995-10-07", "1995-08-23", "DELIVER IN PERSON", "AIR", " express accounts wake according to the"]
+["order", "32", "130057", "O", "208660.75", "1995-07-16", "2-HIGH", "Clerk#000000616", "0", "ise blithely bold, regular requests. quickly unusual dep", "line_item", "32", "2743", "7744", "4", "4", "6582.96", "0.09", "0.03", "N", "O", "1995-08-04", "1995-10-01", "1995-09-03", "NONE", "REG AIR", "e slyly final pac"]
+["order", "32", "130057", "O", "208660.75", "1995-07-16", "2-HIGH", "Clerk#000000616", "0", "ise blithely bold, regular requests. quickly unusual dep", "line_item", "32", "85811", "8320", "5", "44", "79059.64", "0.05", "0.06", "N", "O", "1995-08-28", "1995-08-20", "1995-09-14", "DELIVER IN PERSON", "AIR", "symptotes nag according to the ironic depo"]
+["order", "32", "130057", "O", "208660.75", "1995-07-16", "2-HIGH", "Clerk#000000616", "0", "ise blithely bold, regular requests. quickly unusual dep", "line_item", "32", "11615", "4117", "6", "6", "9159.66", "0.04", "0.03", "N", "O", "1995-07-21", "1995-09-23", "1995-07-25", "COLLECT COD", "RAIL", " gifts cajole carefully."]
+["order", "2", "78002", "O", "46929.18", "1996-12-01", "1-URGENT", "Clerk#000000880", "0", " foxes. pending accounts at the pending, silent asymptot", "line_item", "2", "106170", "1191", "1", "38", "44694.46", "0.00", "0.05", "N", "O", "1997-01-28", "1997-01-14", "1997-02-02", "TAKE BACK RETURN", "RAIL", "ven requests. deposits breach a"]
+["order", "4", "136777", "O", "32151.78", "1995-10-11", "5-LOW", "Clerk#000000124", "0", "sits. slyly regular warthogs cajole. regular, regular theodolites acro", "line_item", "4", "88035", "5560", "1", "30", "30690.90", "0.03", "0.08", "N", "O", "1996-01-10", "1995-12-14", "1996-01-18", "DELIVER IN PERSON", "REG AIR", "- quickly regular packages sleep. idly"]
+["order", "6", "55624", "F", "58749.59", "1992-02-21", "4-NOT SPECIFIED", "Clerk#000000058", "0", "ggle. special, final requests are against the furiously specia", "line_item", "6", "139636", "2150", "1", "37", "61998.31", "0.08", "0.03", "A", "F", "1992-04-27", "1992-05-15", "1992-05-02", "TAKE BACK RETURN", "TRUCK", "p furiously special foxes"]
+19/11/24 11:36:39 INFO python.PythonRunner: Times: total = 48, boot = -229, init = 277, finish = 0
+19/11/24 11:36:39 INFO executor.Executor: Finished task 1.0 in stage 1.0 (TID 3). 1633 bytes result sent to driver
+19/11/24 11:36:39 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 1.0 (TID 3) in 79 ms on localhost (executor driver) (2/2)
+19/11/24 11:36:39 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+19/11/24 11:36:39 INFO scheduler.DAGScheduler: ResultStage 1 (foreach at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:19) finished in 0.216 s
+19/11/24 11:36:39 INFO scheduler.DAGScheduler: Job 0 finished: foreach at /home/root/BigDataCourse/problem2/pyspark/problem2_spark.py:19, took 2.669905 s
+19/11/24 11:36:39 INFO spark.SparkContext: Invoking stop() from shutdown hook
+19/11/24 11:36:39 INFO server.AbstractConnector: Stopped Spark@6e094a5c{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+19/11/24 11:36:39 INFO ui.SparkUI: Stopped Spark web UI at http://f86b0fa73cb7:4040
+19/11/24 11:36:39 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+19/11/24 11:36:39 INFO memory.MemoryStore: MemoryStore cleared
+19/11/24 11:36:39 INFO storage.BlockManager: BlockManager stopped
+19/11/24 11:36:39 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+19/11/24 11:36:39 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+19/11/24 11:36:39 INFO spark.SparkContext: Successfully stopped SparkContext
+19/11/24 11:36:39 INFO util.ShutdownHookManager: Shutdown hook called
+19/11/24 11:36:39 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-a94cda2a-cc99-4859-bccf-2d5d4463b106
+19/11/24 11:36:39 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-7c5c0f6b-1b30-4093-b7b2-631f56863fd0/pyspark-966a0ff6-9c4e-4025-93e4-3c00a52787db
+19/11/24 11:36:39 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-7c5c0f6b-1b30-4093-b7b2-631f56863fd0

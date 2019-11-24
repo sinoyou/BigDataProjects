@@ -30,4 +30,4 @@ for (order_id, values) in intermediate.items():
 
 jenc = json.JSONEncoder()
 for item in result:
-    print jenc.encode(item)
+    print jenc.encode(item).strip()
